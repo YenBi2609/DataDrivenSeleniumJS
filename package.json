@@ -1,0 +1,28 @@
+{
+  "name": "DataDrivenSeleniumJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chromedriver": "^93.0.1",
+    "exceljs": "^4.3.0",
+    "selenium-webdriver": "^4.0.0-rc-1",
+    "wdio-video-reporter": "^3.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YenBi2609/DataDrivenSeleniumJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YenBi2609/DataDrivenSeleniumJS/issues"
+  },
+  "homepage": "https://github.com/YenBi2609/DataDrivenSeleniumJS#readme"
+}

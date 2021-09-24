@@ -23,7 +23,11 @@ inboundWorkbook.xlsx.readFile("./data.xlsx").then(async function () {
  
        var title = await driver.getTitle();
        console.log('Title is:',title);
- 
+       driver.takeScreenshot().then(
+        function(image) {
+            require('fs').writeFileSync('captured_image_3.png', image, 'base64');
+        }
+    );
        await driver.quit();
 });
 

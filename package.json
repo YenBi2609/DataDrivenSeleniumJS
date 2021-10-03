@@ -5,9 +5,9 @@
   "main": "test.js",
   "dependencies": {
     "chai": "^4.3.4",
-    "chromedriver": "^93.0.1",
+    "chromedriver": "^94.0.4606.61",
     "exceljs": "^4.3.0",
-    "selenium-webdriver": "^4.0.0-rc-1",
+    "selenium-webdriver": "^4.0.0-rc-2",
     "wdio-video-reporter": "^3.1.2"
   },
   "devDependencies": {},

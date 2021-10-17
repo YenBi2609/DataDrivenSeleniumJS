@@ -40,7 +40,8 @@ inboundWorkbook.xlsx.readFile("./data.xlsx").then(async function () {
     // );
     var a = await driver.executeScript("return document.body.scrollHeight;");
     console.log(a);
-    await driver.executeScript("window.scrollBy(0,250)", "");
+    driver.executeScript("window.scrollBy(0,250)", "");
+    driver.executeScript("window.scrollBy(0,document.body.scrollHeight)");
 
     await driver.sleep(10000);
     await driver.quit();

@@ -7,14 +7,15 @@
     "chai": "^4.3.4",
     "chromedriver": "^94.0.4606.61",
     "exceljs": "^4.3.0",
-    "firefox-profile": "^4.2.1",
     "path": "^0.12.7",
     "selenium-webdriver": "^4.0.0-rc-2",
     "wdio-video-reporter": "^3.1.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run single",
+    "single": "./node_modules/.bin/mocha scripts/single_test.js "
   },
   "repository": {
     "type": "git",
